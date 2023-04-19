@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banerlewy {
+background-color: #29434E;
+color: white;
+width: 30%;
+height: 70px;
+}
+#polecamy,#filmyfantastyczne{
+    background-color: #b0bec5;
+    height: 320px;
+    overflow: scroll;
+}
+#stopka {
+    background-color: #29434E;
+    color: white;
+}
