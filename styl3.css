@@ -1,18 +1,46 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+*{
+    font-family: Verdana;
 }
 #banerlewy {
 background-color: #29434E;
 color: white;
-width: 30%;
+width: 70%;
 height: 70px;
+text-align: center;
+float: left;
 }
-#polecamy,#filmyfantastyczne{
+
+#banerprawy {
+    background-color: #29434E;
+    color: white;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    float: left;
+    }
+
+#polecamy, #filmyfantastyczne{
     background-color: #b0bec5;
     height: 320px;
     overflow: scroll;
+    clear: both;
 }
 #stopka {
     background-color: #29434E;
     color: white;
+}
+#film {
+padding: 5px;
+width: 226px;
+height: 280px; 
+}
+
+h3 {
+    background-color: #546e7a;
+    color: white;
+    margin: 0px;
+}
+h4 {
+    text-align: center;
+    margin: 0px;
 }
